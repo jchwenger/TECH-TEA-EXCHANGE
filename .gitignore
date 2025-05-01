@@ -7,3 +7,12 @@
 # python
 **/__pycache__
 **/.ipynb_checkpoints
+
+# api key
+api.txt
+
+# python environments
+**/env
+**/.env
+**/venv
+**/.venv
