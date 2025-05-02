@@ -1,2 +1,6 @@
 anthropic==0.42.0
 jupyter
+setuptools
+wheel
+beautifulsoup4
+urllib3
