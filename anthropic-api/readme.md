@@ -13,7 +13,13 @@ Note: unfortunately the API is not free, even for PRO users. You have to add som
 The notebooks will assume that you have an API key (long string) and that you copied it in the `api.txt` file. This is just one way of doing it, you can also set it in your terminal before launching Jupyter, like so:
 
 ```bash
-export 
+export ANTHROPIC_API_KEY=[the long long string copied from the web]
+```
+
+If you have it in a file:
+
+```bash
+export ANTHROPIC_API_KEY=`cat api-key.txt`
 ```
 
 Note: when working with GIT, you don't want accidentally to commit the file with your api key inside it. In order to prevent git from tracking changes inside it, run this command in your terminal from the root of this repository:
